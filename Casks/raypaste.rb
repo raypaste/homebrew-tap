@@ -15,12 +15,12 @@ cask "raypaste" do
     on_intel do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "c8577f0383079ea777af3cb10d5b0ce8076e399414406c0cbda7f28fd81f7e25"
+      sha256 "6b2b621f0278030e7ae1965cfca3e8ee9a30c7d036181d176b7d4ea17b654fac"
     end
     on_arm do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "904527d95e54c6b8f01c9017533c6138271ad3f0f196769b0d3f0fd1b6c15f24"
+      sha256 "225f6e97be5a6fd01526aa2c3e94d6416cf2aeba951d439c7bd99a763e5593b4"
     end
   end
 
@@ -28,12 +28,12 @@ cask "raypaste" do
     on_intel do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_linux_amd64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "e4c2265c58c9a689b8ee41784b65ee9b18c58744f0bdd6765d83f8c1ba552efa"
+      sha256 "9fe421e488ce172ff812a23ab52ceca4a4eecd4d3d17940c448811452cf6e196"
     end
     on_arm do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_linux_arm64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "0a183ce21a3fa4d929337794a485bf0d2f9701241830c039b91c82f5d5ff10a5"
+      sha256 "75824833467bda227c664eafdafd69611a183dd23dc6b2583d1fd29246daf356"
     end
   end
 
