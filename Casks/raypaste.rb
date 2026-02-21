@@ -3,7 +3,7 @@ cask "raypaste" do
   name "raypaste"
   desc "Ultra-fast AI-optimized meta prompts from your input text in your terminal"
   homepage "https://github.com/raypaste/raypaste-cli"
-  version "0.2.5"
+  version "0.2.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "raypaste" do
     on_intel do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "4214a3795518564b512cadc17ac78a34b47f255df092cafeed0dd6475b8ff0e7"
+      sha256 "79be81dfb709f4b045a09b807ab09b290e49db1042d3da767e3a6071c233a738"
     end
     on_arm do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "b4bc9be8ba0bff76af6aa0f64abd6848990e4463629bc9fae525d0149afab7f9"
+      sha256 "931c1c9289b95e8e0590d5af3805432ae2d06fdd20c690180d45766ae7126f96"
     end
   end
 
@@ -28,12 +28,12 @@ cask "raypaste" do
     on_intel do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_linux_amd64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "654934bb03fe2cbd0e5e95af12ee435c0efb9a5909ba4d0e1dd087a64a3236c3"
+      sha256 "65b93001a3f411482a069c47a97cecd1895266cc4c2cf698d937435ad79b9c40"
     end
     on_arm do
       url "https://github.com/raypaste/raypaste-cli/releases/download/v#{version}/raypaste-cli_#{version}_linux_arm64.tar.gz",
         verified: "github.com/raypaste/raypaste-cli/releases/download"
-      sha256 "be389a83686b7e7a14d6ed53ddf80dc9090f32199db886ea6ce20a2a6ca8dd14"
+      sha256 "c47a90ed9405cefe215fa9b53a431aa39239d6a499692921fa8b8de651f8c730"
     end
   end
 
